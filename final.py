@@ -10,7 +10,7 @@ class USDTFlasher(QMainWindow):
     def __init__(self):
         super().__init__()
         try:
-            self.setWindowTitle("USDT Flasher Pro v2.5")
+            self.setWindowTitle("USDTWalletFlasher")
             self.setFixedSize(800, 600)
             
             # Initialize values
@@ -50,7 +50,7 @@ class USDTFlasher(QMainWindow):
         self.set_dark_theme()
         
         # Header
-        header = QLabel("USDT FLASHER PRO - TETHER BLOCKCHAIN UTILITY")
+        header = QLabel("USDTWalletFlasher - TETHER BLOCKCHAIN UTILITY")
         header.setFont(QFont('Arial', 14, QFont.Bold))
         header.setAlignment(Qt.AlignCenter)
         layout.addWidget(header)
